@@ -1,8 +1,0 @@
-open 204.90.115.200
-Z55188
-DIV41PEP
-ascii
-cd 'z55188.JCL(HELLOWD)'
-lcd C:\JCLBackup
-mget *.* 
-quit
