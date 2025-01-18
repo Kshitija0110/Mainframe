@@ -40,7 +40,11 @@ REM Copy new files to repo directory
 echo Copying files to Git repository...
 xcopy /Y "%BACKUP_DIR%\*.*" "%REPO_DIR%"
 
+<<<<<<< HEAD
 REM Perform Git operation
+=======
+REM Perform Git operations
+>>>>>>> a96d7144bf8d1a118a493a659415af60ecb41b97
 git add .
 git commit -m "JCL backup %DATE_STAMP%_%TIME_STAMP%"
 git push origin main
